@@ -1,6 +1,6 @@
 ---
 title: 'RFC 8693 Deep Dive: Token Exchange'
-published: false
+published: true
 description: 'A comprehensive, illustrated deep dive into RFC 8693 (Token Exchange), the OAuth 2.0 standard for exchanging one token for another, exploring the crucial differences between Impersonation and Delegation.'
 tags:
   - oauth
