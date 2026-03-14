@@ -1,6 +1,6 @@
 ---
 title: 'Identity Chaining Deep Dive: Connecting Identity Across Trust Domains with OAuth'
-published: false
+published: true
 description: 'A comprehensive guide to Identity Chaining (draft-ietf-oauth-identity-chaining-08). Learn how to safely propagate identity and authorization information across domains in multi-cloud and microservices architectures, combining RFC 8693 and RFC 7523.'
 tags:
   - oauth
