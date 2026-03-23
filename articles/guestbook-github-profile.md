@@ -7,7 +7,7 @@ tags:
   - github
   - python
   - automation
-cover_image: ''
+cover_image: 'https://raw.githubusercontent.com/kanywst/dev.to.kanywst/refs/heads/main/articles/assets/guestbook-github-profile/cover.png'
 series: ShowDev
 id: 3389902
 ---
