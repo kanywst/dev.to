@@ -334,59 +334,6 @@ MongoDB, Elastic, and Redis all ultimately returned to OSI-recognized licenses (
 
 ---
 
-## 11. Hands-on: Auditing Licenses in Your Dependencies
-
-Let's put this knowledge into practice by actually checking what licenses exist in your project's dependencies.
-
-### For Node.js / npm Projects
-
-```bash
-# Install license-checker
-npm install -g license-checker
-
-# Display license summary for the project
-license-checker --summary
-
-# Detect GPL-family licenses (licenses requiring caution)
-license-checker --onlyAllow 'MIT;Apache-2.0;BSD-2-Clause;BSD-3-Clause;ISC;0BSD' --failOn 'GPL-2.0;GPL-3.0;AGPL-3.0'
-```
-
-With the `--failOn` option, you can integrate this into your CI pipeline and fail the build the moment a GPL or AGPL package is detected.
-
-### For Python Projects
-
-```bash
-# Install pip-licenses
-pip install pip-licenses
-
-# Display license list
-pip-licenses --format=table --with-urls
-
-# Detect GPL-family
-pip-licenses --allow-only="MIT License;Apache Software License;BSD License;ISC License"
-```
-
-### Using SPDX Identifiers
-
-[SPDX (Software Package Data Exchange)](https://spdx.org/licenses/) is the standard identifier system for licenses. It's used in `package.json` and `Cargo.toml`:
-
-```json
-// package.json
-{
-  "license": "MIT"
-}
-```
-
-```toml
-# Cargo.toml
-[package]
-license = "MIT OR Apache-2.0"
-```
-
-SPDX expressions use `OR` (choose either) and `AND` (must satisfy both) to represent compound licenses. In dual-licensed projects (e.g., Rust itself is `MIT OR Apache-2.0`), users can choose whichever suits them.
-
----
-
 ## Final Thoughts
 
 > ⚠️ This article is a general overview for software developers and does not constitute legal advice. For actual integration into products, always consult your legal department or qualified professionals.
