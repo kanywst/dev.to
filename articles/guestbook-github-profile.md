@@ -1,6 +1,6 @@
 ---
 title: 'GitHub Profile: A "Guest Book" Anyone Can Sign'
-published: false
+published: true
 description: 'I built a fully automated, interactive guest book using Issue Forms and GitHub Actions, where visitors can leave a message in just 10 seconds.'
 tags:
   - showdev
