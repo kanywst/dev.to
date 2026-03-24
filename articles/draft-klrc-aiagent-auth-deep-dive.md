@@ -7,7 +7,7 @@ tags:
   - agents
   - oauth
   - security
-series: AI Agent Security
+series: AI Agent Identity
 id: 3350788
 cover_image: 'https://raw.githubusercontent.com/kanywst/dev.to.kanywst/refs/heads/main/articles/assets/draft-klrc-aiagent-auth-deep-dive/cover.png'
 date: '2026-03-14T08:37:17Z'
