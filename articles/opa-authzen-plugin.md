@@ -1,5 +1,5 @@
 ---
-title: 'I Built an OPA Plugin That Turns It Into an AuthZEN-Compatible PDP'
+title: I Built an OPA Plugin That Turns It Into an AuthZEN-Compatible PDP
 published: false
 description: 'Building an OPA plugin that implements the AuthZEN Authorization API 1.0. How the OPA community discussion led to a plugin approach, and the design decisions behind it.'
 tags:
@@ -8,6 +8,7 @@ tags:
   - authorization
   - go
 series: Authorization
+id: 3441756
 ---
 
 # Introduction
