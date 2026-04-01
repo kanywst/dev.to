@@ -9,7 +9,8 @@ tags:
   - go
 series: Authorization
 id: 3441756
-cover_image: "https://raw.githubusercontent.com/kanywst/dev.to.kanywst/refs/heads/main/articles/assets/opa-authzen-plugin/cover.png"
+cover_image: 'https://raw.githubusercontent.com/kanywst/dev.to.kanywst/refs/heads/main/articles/assets/opa-authzen-plugin/cover.png'
+date: '2026-04-01T17:10:01Z'
 ---
 
 # Introduction
