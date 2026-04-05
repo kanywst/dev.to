@@ -1,6 +1,6 @@
 ---
 title: 'Why I Built opa-authzen-interop: Verifying OPA on AuthZEN Interop'
-published: false
+published: true
 description: 'I split out an interop-focused repo to continuously validate opa-authzen-plugin against OpenID AuthZEN Interop. This post covers the background, ecosystem context, current gaps, and next actions.'
 tags:
   - showdev
@@ -9,6 +9,7 @@ tags:
   - rego
 series: Authorization
 id: 3456592
+cover_image: "https://raw.githubusercontent.com/kanywst/dev.to.kanywst/refs/heads/main/articles/assets/opa-authzen-interop/cover.png"
 ---
 
 # Introduction
