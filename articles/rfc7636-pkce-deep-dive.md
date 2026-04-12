@@ -1,6 +1,6 @@
 ---
 title: 'RFC 7636 Deep Dive: How PKCE Kills Authorization Code Interception Attacks'
-published: false
+published: true
 description: 'A deep dive into RFC 7636. Thoroughly explaining the PKCE attack model, protocol details, S256 vs. plain, and security design.'
 tags:
   - oauth
@@ -9,6 +9,7 @@ tags:
   - pkce
 series: OAuth
 id: 3489309
+cover_image: "https://raw.githubusercontent.com/kanywst/dev.to.kanywst/refs/heads/main/articles/assets/rfc7636-pkce-deep-dive/cover.png"
 ---
 
 # Introduction
