@@ -8,7 +8,7 @@ tags:
   - opensource
   - showdev
 series: Authorization
-cover_image: "https://raw.githubusercontent.com/kanywst/dev.to.kanywst/refs/heads/main/articles/assets/why-i-created-awesome-authorization/cover.png"
+cover_image: 'https://raw.githubusercontent.com/kanywst/dev.to.kanywst/refs/heads/main/articles/assets/why-i-created-awesome-authorization/cover.png'
 ---
 
 # Introduction
