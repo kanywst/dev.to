@@ -9,7 +9,7 @@ tags:
   - OCI
 series: Kubernetes Fundamental
 id: 3202737
-cover_image: 'https://raw.githubusercontent.com/kanywst/dev.to.kanywst/refs/heads/main/articles/assets/oci-runtime-vs-cri/cri-vs-oci.png'
+cover_image: 'https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/oci-runtime-vs-cri/cri-vs-oci.png'
 date: '2026-01-27T20:38:56Z'
 ---
 

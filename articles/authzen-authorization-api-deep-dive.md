@@ -9,7 +9,7 @@ tags:
   - api
 series: Authorization
 id: 3430620
-cover_image: 'https://raw.githubusercontent.com/kanywst/dev.to.kanywst/refs/heads/main/articles/assets/authzen-authorization-api-deep-dive/cover.png'
+cover_image: 'https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/authzen-authorization-api-deep-dive/cover.png'
 date: '2026-03-30T12:08:40Z'
 ---
 

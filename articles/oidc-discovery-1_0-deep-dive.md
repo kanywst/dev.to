@@ -9,7 +9,7 @@ tags:
   - oidc
 series: OIDC
 id: 3321766
-cover_image: 'https://raw.githubusercontent.com/kanywst/dev.to.kanywst/refs/heads/main/articles/assets/oidc-discovery-1_0-deep-dive/cover.png'
+cover_image: 'https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/oidc-discovery-1_0-deep-dive/cover.png'
 date: '2026-03-07T08:50:17Z'
 ---
 

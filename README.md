@@ -11,7 +11,7 @@ This repository is set up to manage and automatically publish articles to [dev.t
 
 ## How to use
 
-The source code for this setup is hosted here: [kanywst/dev.to.kanywst](https://github.com/kanywst/dev.to.kanywst)
+The source code for this setup is hosted here: [0-draft/dev.to](https://github.com/0-draft/dev.to)
 
 1. **Create a new article**:
    Copy `templates/article-template.md` to `articles/my-new-post.md`.

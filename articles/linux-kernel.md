@@ -7,7 +7,7 @@ tags:
   - kernel
   - ebpf
   - programming
-cover_image: 'https://raw.githubusercontent.com/kanywst/dev.to.kanywst/refs/heads/main/articles/assets/linux-kernel/linux-kernel.png'
+cover_image: 'https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/linux-kernel/linux-kernel.png'
 id: 3161925
 date: '2026-01-10T06:13:01Z'
 series: Linux Kernel
@@ -263,14 +263,14 @@ TC's eBPF hook (`cls_bpf`) is much faster than standard mechanisms like iptables
 
 #### Comparison
 
-| Feature | XDP (eXpress Data Path) | TC (Traffic Control) |
-| --- | --- | --- |
-| **Intervention Point** | NIC Driver Layer (Lowest Level) | Network Stack Layer (Middle Layer) |
-| **Data Structure** | `xdp_md` (Raw Data) | `sk_buff` (With Metadata) |
-| **Memory Allocation** | **Before** (Pre-cost) | **After** (Post-cost) |
-| **Direction** | Ingress Only* | Ingress / Egress |
-| **Modification** | Limited (Packet length change is hard) | Flexible (Header add/remove possible) |
-| **Performance** | Fastest | High Speed (Slower than XDP) |
+| Feature                | XDP (eXpress Data Path)                | TC (Traffic Control)                  |
+| ---------------------- | -------------------------------------- | ------------------------------------- |
+| **Intervention Point** | NIC Driver Layer (Lowest Level)        | Network Stack Layer (Middle Layer)    |
+| **Data Structure**     | `xdp_md` (Raw Data)                    | `sk_buff` (With Metadata)             |
+| **Memory Allocation**  | **Before** (Pre-cost)                  | **After** (Post-cost)                 |
+| **Direction**          | Ingress Only*                          | Ingress / Egress                      |
+| **Modification**       | Limited (Packet length change is hard) | Flexible (Header add/remove possible) |
+| **Performance**        | Fastest                                | High Speed (Slower than XDP)          |
 
 > [!TIP]
 > XDP is primarily for Ingress, but immediate transmission is possible using `XDP_TX`. However, it cannot capture packets sent from the application itself.

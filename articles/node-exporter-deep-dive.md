@@ -9,7 +9,7 @@ tags:
   - o11y
 series: O11y
 id: 3205854
-cover_image: 'https://raw.githubusercontent.com/kanywst/dev.to.kanywst/refs/heads/main/articles/assets/node-exporter/node-exporter-meme2.png'
+cover_image: 'https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/node-exporter/node-exporter-meme2.png'
 date: '2026-01-28T18:25:11Z'
 ---
 
@@ -156,7 +156,7 @@ A choice (and potential overlap) only arises when deciding **how to pass JSON da
 
 |  Comparison   |    A. Textfile Collector (Node Exporter)    |                  B. JSON Exporter                  |
 | :-----------: | :-----------------------------------------: | :------------------------------------------------: |
-| **Mechanism** | cron + jq command -> generates `.prom` file  |      Persistent process fetches JSON via HTTP      |
+| **Mechanism** | cron + jq command -> generates `.prom` file |      Persistent process fetches JSON via HTTP      |
 |   **Pros**    |    No need for a new persistent process.    |      Configured via YAML; no scripts needed.       |
 |   **Cons**    | Shell script management/locking is tedious. |         One more daemon/process to manage.         |
 | **Best For**  |   Simple values, monitoring local files.    | Complex JSON structures, monitoring external APIs. |

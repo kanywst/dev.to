@@ -8,7 +8,7 @@ tags:
   - systems
   - learning
 id: 3161782
-cover_image: 'https://raw.githubusercontent.com/kanywst/dev.to.kanywst/refs/heads/main/articles/assets/linux-file-system/everything-is-a-file.png'
+cover_image: 'https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/linux-file-system/everything-is-a-file.png'
 date: '2026-01-10T03:21:42Z'
 series: Linux Kernel
 ---
@@ -31,7 +31,7 @@ VFS acts as an abstraction layer. It provides a unified input/output interface f
 
 If VFS didn't exist, you would have to be conscious of the **disk format type** every time you saved a file.
 
-![vfs](https://raw.githubusercontent.com/kanywst/dev.to.kanywst/refs/heads/main/articles/assets/linux-file-system/vfs.png)
+![vfs](https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/linux-file-system/vfs.png)
 
 ## 2. The Variety of File Systems
 
@@ -105,7 +105,7 @@ OverlayFS uses a specific structure to achieve deduplication and fast startup.
 * **Upper Dir:** The writable layer for your specific container. Starts empty. Changes are copied here (**Copy on Write**).
 * **Merged Dir:** The view you see. The Upper layer "overlays" the Lower layer.
 
-![overlayfs](https://raw.githubusercontent.com/kanywst/dev.to.kanywst/refs/heads/main/articles/assets/linux-file-system/overlayfs.png)
+![overlayfs](https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/linux-file-system/overlayfs.png)
 
 ## 3. What is a "File" really? (The Inode)
 
@@ -231,7 +231,7 @@ Understanding inodes makes the difference between Hard and Symbolic links crysta
 * **Hard Link:** Another directory entry pointing to the **same inode**.
 * **Symbolic Link:** A special file pointing to **another path**.
 
-![sym-vs-hard](https://raw.githubusercontent.com/kanywst/dev.to.kanywst/refs/heads/main/articles/assets/linux-file-system/sym-vs-hard.png)
+![sym-vs-hard](https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/linux-file-system/sym-vs-hard.png)
 
 Let's verify this:
 
@@ -296,7 +296,7 @@ Why did it start at 3? Because Linux processes start with three standard FDs alr
 
 The kernel assigns the **lowest available number**. Since 0, 1, and 2 are taken, your file gets 3.
 
-![fd](https://raw.githubusercontent.com/kanywst/dev.to.kanywst/refs/heads/main/articles/assets/linux-file-system/fd.png)
+![fd](https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/linux-file-system/fd.png)
 
 ### File Descriptor Exhaustion
 

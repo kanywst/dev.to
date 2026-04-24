@@ -32,7 +32,7 @@ The setup is surprisingly simple. Here is the workflow visualization:
 
 ![github actions workflow](./assets/hello-world-gitops/github-action-workflow.png)
 
-I have a GitHub Actions workflow that listens for changes in my `articles/` directory. You can find the complete source for this setup in my repository: [kanywst/dev.to.kanywst](https://github.com/kanywst/dev.to.kanywst).
+I have a GitHub Actions workflow that listens for changes in my `articles/` directory. You can find the complete source for this setup in my repository: [0-draft/dev.to](https://github.com/0-draft/dev.to).
 
 ```yaml
 on:

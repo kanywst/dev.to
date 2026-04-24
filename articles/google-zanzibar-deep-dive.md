@@ -9,7 +9,7 @@ tags:
   - google
 series: Authorization
 id: 3441179
-cover_image: 'https://raw.githubusercontent.com/kanywst/dev.to.kanywst/refs/heads/main/articles/assets/google-zanzibar-deep-dive/cover.png'
+cover_image: 'https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/google-zanzibar-deep-dive/cover.png'
 date: '2026-04-01T13:58:38Z'
 ---
 

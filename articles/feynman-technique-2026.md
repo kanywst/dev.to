@@ -8,7 +8,7 @@ tags:
   - productivity
   - ai
 id: 3249331
-cover_image: 'https://raw.githubusercontent.com/kanywst/dev.to.kanywst/refs/heads/main/articles/assets/feynman/feynman-meme.png'
+cover_image: 'https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/feynman/feynman-meme.png'
 date: '2026-02-11T14:59:49Z'
 series: Engineering Mindset
 ---
@@ -46,9 +46,9 @@ This isn't just a study method; it is a **debugging technique for finding "bugs 
 
 "Just reading" and "explaining" utilize the brain in fundamentally different ways.
 
-|         Mode         |                     Brain Activity                      |           Result           |
-| :------------------: | :-----------------------------------------------------: | :------------------------: |
-|   **Reading**    |        Passive input. Info flows right to left.         |     **Low Retention**      |
+|      Mode      |                     Brain Activity                      |           Result           |
+| :------------: | :-----------------------------------------------------: | :------------------------: |
+|  **Reading**   |        Passive input. Info flows right to left.         |     **Low Retention**      |
 | **Explaining** | **Search, Retrieve, Construct.** (Desirable Difficulty) | **Strong Neural Circuits** |
 
 ### Active Recall

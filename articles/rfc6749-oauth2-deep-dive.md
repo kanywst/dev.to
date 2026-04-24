@@ -9,7 +9,7 @@ tags:
   - oidc
 series: OAuth
 id: 3277973
-cover_image: 'https://raw.githubusercontent.com/kanywst/dev.to.kanywst/refs/heads/main/articles/assets/rfc6749-oauth2-deep-dive/cover.png'
+cover_image: 'https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/rfc6749-oauth2-deep-dive/cover.png'
 date: '2026-02-23T13:11:37Z'
 ---
 

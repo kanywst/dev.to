@@ -8,7 +8,7 @@ tags:
   - cli
   - git
 id: 3176769
-cover_image: 'https://raw.githubusercontent.com/kanywst/dev.to.kanywst/refs/heads/main/articles/assets/gmk/gmk_meme.png'
+cover_image: 'https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/gmk/gmk_meme.png'
 date: '2026-01-16T14:19:04Z'
 series: ShowDev
 ---

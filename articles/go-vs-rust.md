@@ -8,7 +8,7 @@ tags:
   - performance
   - internal
 id: 3171783
-cover_image: 'https://raw.githubusercontent.com/kanywst/dev.to.kanywst/refs/heads/main/articles/assets/go-vs-rust/go-vs-rust-meme.png'
+cover_image: 'https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/go-vs-rust/go-vs-rust-meme.png'
 date: '2026-01-14T13:56:55Z'
 series: Go vs Rust
 ---
@@ -168,9 +168,9 @@ rustc -O concurrency.rs && ./concurrency
 Here are the actual measurements from my environment (macOS 15.2 / M2 Max).
 
 | Language | Task Count | Execution Time | Time per Task (Approx) |
-| :--- | :--- | :--- | :--- |
-| **Go** | 100,000 | **40.4 ms** | 0.0004 ms |
-| **Rust** | 10,000 | **781.1 ms** | 0.0781 ms |
+| :------- | :--------- | :------------- | :--------------------- |
+| **Go**   | 100,000    | **40.4 ms**    | 0.0004 ms              |
+| **Rust** | 10,000     | **781.1 ms**   | 0.0781 ms              |
 
 **Analysis**:
 Even though Go is handling 10x the tasks, the total time is about 1/20th of Rust's. In terms of efficiency per task, **Go is about 195x faster**. This numerically proves how specialized the G-M-P model is for "task spawning and switching."
@@ -280,10 +280,10 @@ rustc -O memory.rs && ./memory
 
 #### Result (My Environment)
 
-| Language | Task | Execution Time | Note |
-| :--- | :--- | :--- | :--- |
-| **Go** | 10M Alloc/Free | **1.18 sec** | GC Runs: **3137 times** |
-| **Rust** | 10M Alloc/Free | **14.0 ms** | No GC (Immediate RAII Free) |
+| Language | Task           | Execution Time | Note                        |
+| :------- | :------------- | :------------- | :-------------------------- |
+| **Go**   | 10M Alloc/Free | **1.18 sec**   | GC Runs: **3137 times**     |
+| **Rust** | 10M Alloc/Free | **14.0 ms**    | No GC (Immediate RAII Free) |
 
 **Analysis**:
 This is the **Overhead of GC**. Go is fast at allocation itself, but the "Cleaning (GC)" running in the background takes up most of the execution time. Rust frees memory the moment it goes out of scope, so there is zero wasted wait time. The difference is **about 84x**.
@@ -364,10 +364,10 @@ rustc -C opt-level=3 computation.rs && ./computation
 
 #### Result (My Environment)
 
-| Language | Task | Execution Time | Note |
-| :--- | :--- | :--- | :--- |
-| **Go** | 100M Integers Sum | **99.1 ms** | Simple `for-range` loop |
-| **Rust** | 100M Integers Sum | **28.5 ms** | `iter().sum()` (SIMD Optimized) |
+| Language | Task              | Execution Time | Note                            |
+| :------- | :---------------- | :------------- | :------------------------------ |
+| **Go**   | 100M Integers Sum | **99.1 ms**    | Simple `for-range` loop         |
+| **Rust** | 100M Integers Sum | **28.5 ms**    | `iter().sum()` (SIMD Optimized) |
 
 **Analysis**:
 Rust is **about 3.5x faster**. Go is fast enough, but Rust (LLVM) goes a step further by utilizing special CPU instructions (Vector operations).

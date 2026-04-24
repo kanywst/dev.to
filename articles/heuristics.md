@@ -9,7 +9,7 @@ tags:
   - showdev
 series: ShowDev
 id: 3257323
-cover_image: 'https://raw.githubusercontent.com/kanywst/dev.to.kanywst/refs/heads/main/articles/assets/heuristics/cover.png'
+cover_image: 'https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/heuristics/cover.png'
 date: '2026-02-15T15:16:37Z'
 ---
 

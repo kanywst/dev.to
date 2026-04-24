@@ -9,7 +9,7 @@ tags:
   - ingress
 series: Kubernetes Fundamental
 id: 3197127
-cover_image: 'https://raw.githubusercontent.com/kanywst/dev.to.kanywst/refs/heads/main/articles/assets/kubernetes-networking/kube-network-meme.png'
+cover_image: 'https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/kubernetes-networking/kube-network-meme.png'
 date: '2026-01-25T11:26:55Z'
 ---
 

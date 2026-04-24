@@ -8,7 +8,7 @@ tags:
   - nextjs
   - typescript
 series: ShowDev
-cover_image: 'https://raw.githubusercontent.com/kanywst/dev.to.kanywst/refs/heads/main/articles/assets/IssueHub/issuehub.png'
+cover_image: 'https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/IssueHub/issuehub.png'
 id: 3180667
 date: '2026-01-18T16:48:16Z'
 ---

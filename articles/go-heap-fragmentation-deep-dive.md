@@ -9,7 +9,7 @@ tags:
   - performance
 series: Go Memory Management
 id: 3257105
-cover_image: 'https://raw.githubusercontent.com/kanywst/dev.to.kanywst/refs/heads/main/articles/assets/go-fragmentation/cover.png'
+cover_image: 'https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/go-fragmentation/cover.png'
 date: '2026-02-16T15:43:26Z'
 ---
 

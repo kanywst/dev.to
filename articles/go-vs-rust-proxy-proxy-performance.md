@@ -9,7 +9,7 @@ tags:
   - performance
 series: Go vs Rust
 id: 3193928
-cover_image: 'https://raw.githubusercontent.com/kanywst/dev.to.kanywst/refs/heads/main/articles/assets/go-vs-rust-proxy-proxy-performance/go-vs-rust-proxy-meme.png'
+cover_image: 'https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/go-vs-rust-proxy-proxy-performance/go-vs-rust-proxy-meme.png'
 date: '2026-01-23T16:00:35Z'
 ---
 
@@ -169,12 +169,12 @@ When you call `io.Copy(dst, src)` in Go, a fixed **32KB** buffer is allocated in
 
 ## 5. Architecture Analysis — Design Philosophies of the Big Four
 
-| Product     | Language | Thread Model      | Characteristics                                      |
-| :---------- | :------- | :---------------- | :--------------------------------------------------- |
-| **Nginx**   | C        | Master/Worker     | Asynchronous Event-driven. Extremely low memory usage.|
-| **Envoy**   | C++      | Thread-local      | Modern L7 Proxy. Powerful filter chain.              |
-| **Traefik** | Go       | Goroutine-per-req | Cloud-native. Strong dynamic configuration changes.  |
-| **Pingora** | Rust     | Multi-threaded    | Built by Cloudflare. Safety and HTTP/3 optimization. |
+| Product     | Language | Thread Model      | Characteristics                                        |
+| :---------- | :------- | :---------------- | :----------------------------------------------------- |
+| **Nginx**   | C        | Master/Worker     | Asynchronous Event-driven. Extremely low memory usage. |
+| **Envoy**   | C++      | Thread-local      | Modern L7 Proxy. Powerful filter chain.                |
+| **Traefik** | Go       | Goroutine-per-req | Cloud-native. Strong dynamic configuration changes.    |
+| **Pingora** | Rust     | Multi-threaded    | Built by Cloudflare. Safety and HTTP/3 optimization.   |
 
 ---
 

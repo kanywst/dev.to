@@ -9,7 +9,7 @@ tags:
   - polymorphism
 series: Rust
 id: 3250050
-cover_image: 'https://raw.githubusercontent.com/kanywst/dev.to.kanywst/refs/heads/main/articles/assets/rust-trait/rust-traits-meme.png'
+cover_image: 'https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/rust-trait/rust-traits-meme.png'
 date: '2026-02-11T23:33:15Z'
 ---
 
