@@ -9,7 +9,7 @@ tags:
   - s3
 series: O11y
 id: 3199342
-cover_image: 'https://raw.githubusercontent.com/kanywst/dev.to.kanywst/refs/heads/main/articles/assets/thanos/thanos-meme.png'
+cover_image: 'https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/thanos/thanos-meme.png'
 date: '2026-01-26T15:03:28Z'
 ---
 

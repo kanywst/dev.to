@@ -8,7 +8,7 @@ tags:
   - go
   - infrastructure
 id: 3174398
-cover_image: 'https://raw.githubusercontent.com/kanywst/dev.to.kanywst/refs/heads/main/articles/assets/socket/unix-domain-socket.png'
+cover_image: 'https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/socket/unix-domain-socket.png'
 date: '2026-01-15T14:05:23Z'
 series: Linux Kernel
 ---

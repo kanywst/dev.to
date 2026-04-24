@@ -9,7 +9,7 @@ tags:
   - performance
 series: Cryptography
 id: 3178615
-cover_image: 'https://raw.githubusercontent.com/kanywst/dev.to.kanywst/refs/heads/main/articles/assets/verify-vs-sign-in-rsa/rsa-dog.png'
+cover_image: 'https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/verify-vs-sign-in-rsa/rsa-dog.png'
 date: '2026-01-17T11:43:44Z'
 ---
 

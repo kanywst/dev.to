@@ -19,7 +19,7 @@ Have you ever wondered when your favorite programming language was actually rele
 I developed a web service called **[The Birth of Websites](https://kanywst.github.io/thebirthofwebsites/)**.
 It is a visual timeline of IT history, exploring the founding dates and origins of major tech companies, web services, programming languages, and operating systems.
 
-<img src="https://raw.githubusercontent.com/kanywst/dev.to.kanywst/refs/heads/main/articles/assets/the-birth-of-websites/example.png" alt="Screenshot of The Birth of Websites" style="border: 2px solid black;">
+<img src="https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/the-birth-of-websites/example.png" alt="Screenshot of The Birth of Websites" style="border: 2px solid black;">
 
 ## Links
 
