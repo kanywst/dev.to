@@ -1,9 +1,14 @@
 ---
-title: "Why Did Docker Abandon TUF?: A Turbulent History of Container Signing"
+title: 'Why Did Docker Abandon TUF?: A Turbulent History of Container Signing'
 published: false
-description: "Why did Docker Content Trust (Notary v1) fail, and how did the industry pivot to Sigstore and Notary v2? A timeline of container signing architecture, contrasted with PyPI's success story."
-tags: ["security", "docker", "supplychain", "sigstore"]
+description: 'Why did Docker Content Trust (Notary v1) fail, and how did the industry pivot to Sigstore and Notary v2? A timeline of container signing architecture, contrasted with PyPI''s success story.'
+tags:
+  - security
+  - docker
+  - supplychain
+  - sigstore
 series: Supply Chain Security
+id: 3562145
 ---
 
 # Introduction
