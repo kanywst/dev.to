@@ -9,7 +9,8 @@ tags:
   - sigstore
 series: Supply Chain Security
 id: 3562145
-cover_image: "https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/docker-tuf-history-deep-dive/cover.png"
+cover_image: 'https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/docker-tuf-history-deep-dive/cover.png'
+date: '2026-04-28T11:34:24Z'
 ---
 
 # Introduction
