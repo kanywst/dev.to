@@ -25,8 +25,6 @@ But today, that mental model is **completely outdated**.
 
 The container signing architecture in the Docker world has gone through a turbulent decade: **"They tried to do it the TUF way, developers refused to play along, the whole thing imploded, and the industry pivoted to a totally different approach."** And that "different approach" turned out to be **two competing approaches** released around the same time, both fighting for dominance. Trying to keep up with this is exhausting.
 
-This article assumes you know the basics of TUF and Sigstore. If you don't, read my [TUF Deep Dive](https://dev.to/takuyaniwa/tuf-the-update-framework-deep-dive-4kcl) and [Sigstore Deep Dive](https://dev.to/takuyaniwa/sigstore-deep-dive-4kcl) first.
-
 ---
 
 ## Background: What "Signing a Container Image" Actually Means
