@@ -1,9 +1,14 @@
 ---
-title: "SLSA Provenance Hands-on: Generate with GitHub Actions, Verify with slsa-verifier"
+title: 'SLSA Provenance Hands-on: Generate with GitHub Actions, Verify with slsa-verifier'
 published: false
-description: "After SBOM and Cosign comes Provenance. Issue SLSA Build L3 provenance with slsa-github-generator and verify it with slsa-verifier, end to end on real machines."
-tags: ["security", "supplychain", "slsa", "sigstore"]
-series: "Supply Chain Security"
+description: 'After SBOM and Cosign comes Provenance. Issue SLSA Build L3 provenance with slsa-github-generator and verify it with slsa-verifier, end to end on real machines.'
+tags:
+  - security
+  - supplychain
+  - slsa
+  - sigstore
+series: Supply Chain Security
+id: 3584976
 ---
 
 # Introduction
