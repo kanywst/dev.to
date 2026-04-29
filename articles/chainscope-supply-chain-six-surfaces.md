@@ -10,7 +10,7 @@ cover_image: 'https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/a
 id: 3587283
 ---
 
-## Introduction
+# Introduction
 
 On 2025-03-14, the GitHub Action `tj-actions/changed-files` was hijacked. CVE-2025-30066. The blast radius: 23,000 repositories, 15 hours.
 
