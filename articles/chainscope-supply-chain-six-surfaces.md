@@ -1,6 +1,6 @@
 ---
 title: 'I built chainscope: reading supply chain attacks across 6 surfaces, one slide at a time'
-published: false
+published: true
 description: 'xz-utils, Shai-Hulud, tj-actions, LiteLLM, pgserve, SUNSPOT. They all get filed under ''supply chain attack'', but the stage that broke and the defense that works are different every time. So I built a slide deck you can walk through with the spacebar.'
 tags:
   - security
