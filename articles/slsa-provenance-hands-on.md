@@ -342,9 +342,6 @@ binary: hello-slsa-{{ .Os }}-{{ .Arch }}
 
 `-trimpath` and `CGO_ENABLED=0` are reproducibility incantations. The next post on Reproducible Builds digs into why these matter.
 
-> [!IMPORTANT]
-> Variable references like `{{ .Env.VERSION }}` only see env vars that the calling workflow explicitly injected via `evaluated-envs:`. The slsa-builder-go binary does not pass through the runner's environment (for reproducibility), so writing `{{ .Env.GITHUB_REF_NAME }}` will fail with `variable name empty`. That's why the next section sets `evaluated-envs: "VERSION:${{ github.ref_name }}"` to feed it in.
-
 ### `.github/workflows/release.yml`: the caller
 
 This is the heart of it. `uses:` calls the slsa-github-generator reusable workflow.
