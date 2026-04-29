@@ -9,7 +9,8 @@ tags:
   - sigstore
 series: Supply Chain Security
 id: 3584976
-cover_image: "https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/slsa-provenance-hands-on/cover.png"
+cover_image: 'https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/slsa-provenance-hands-on/cover.png'
+date: '2026-04-29T07:38:30Z'
 ---
 
 # Introduction
