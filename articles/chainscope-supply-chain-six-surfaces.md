@@ -1,9 +1,13 @@
 ---
-title: "I built chainscope: reading supply chain attacks across 6 surfaces, one slide at a time"
-published: false
-description: "xz-utils, Shai-Hulud, tj-actions, LiteLLM, pgserve, SUNSPOT. They all get filed under 'supply chain attack', but the stage that broke and the defense that works are different every time. So I built a slide deck you can walk through with the spacebar."
-tags: ["security", "supplychain", "showdev"]
-cover_image: "https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/chainscope-supply-chain-six-surfaces/cover.png"
+title: 'I built chainscope: reading supply chain attacks across 6 surfaces, one slide at a time'
+published: true
+description: 'xz-utils, Shai-Hulud, tj-actions, LiteLLM, pgserve, SUNSPOT. They all get filed under ''supply chain attack'', but the stage that broke and the defense that works are different every time. So I built a slide deck you can walk through with the spacebar.'
+tags:
+  - security
+  - supplychain
+  - showdev
+cover_image: 'https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/chainscope-supply-chain-six-surfaces/cover.png'
+id: 3587283
 ---
 
 ## Introduction
