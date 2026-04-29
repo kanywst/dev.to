@@ -9,6 +9,7 @@ tags:
 cover_image: 'https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/chainscope-supply-chain-six-surfaces/cover.png'
 id: 3587283
 date: '2026-04-29T15:05:15Z'
+series: "Supply Chain Security"
 ---
 
 # Introduction
