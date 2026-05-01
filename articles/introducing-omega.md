@@ -1,14 +1,16 @@
 ---
-title: "Introducing Omega: SPIFFE Workload Identity + AuthZEN Authorization in a Single Binary"
+title: 'Introducing Omega: SPIFFE Workload Identity + AuthZEN Authorization in a Single Binary'
 published: true
-description: "Omega is a v0 control plane that ships SPIFFE-compatible workload identity and an OpenID AuthZEN 1.0 PDP (Cedar) in one Apache-2.0 binary."
+description: Omega is a v0 control plane that ships SPIFFE-compatible workload identity and an OpenID AuthZEN 1.0 PDP (Cedar) in one Apache-2.0 binary.
 tags:
   - spiffe
   - authzen
   - security
   - opensource
 series: ShowDev
-cover_image: "https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/introducing-omega/cover.png"
+cover_image: 'https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/introducing-omega/cover.png'
+id: 3596636
+date: '2026-05-01T15:22:55Z'
 ---
 
 Standing up workload identity in a real cluster usually means running
