@@ -7,8 +7,10 @@ tags:
   - github
   - git
   - supplychain
-series: 'Supply Chain Security'
-cover_image: "https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/github-hacking-deep-dive/cover.png"
+series: Supply Chain Security
+cover_image: 'https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/github-hacking-deep-dive/cover.png'
+id: 3592382
+date: '2026-04-30T15:02:43Z'
 ---
 
 ## Intro: Why we got burned twice by the same trick
