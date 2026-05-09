@@ -13,7 +13,7 @@ cover_image: 'https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/a
 date: '2026-05-09T12:40:10Z'
 ---
 
-## Intro: why "are you using AI?" is suddenly hard to answer honestly
+# Introduction
 
 I keep having this conversation lately, both inside and outside work.
 
