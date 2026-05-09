@@ -9,7 +9,8 @@ tags:
   - llm
 series: AI Trends
 id: 3640232
-cover_image: "https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/it-companies-real-ai-usage-2026/cover.png"
+cover_image: 'https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/it-companies-real-ai-usage-2026/cover.png'
+date: '2026-05-09T12:40:10Z'
 ---
 
 ## Intro: why "are you using AI?" is suddenly hard to answer honestly
