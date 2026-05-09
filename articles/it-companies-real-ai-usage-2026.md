@@ -1,6 +1,6 @@
 ---
 title: 'What 11 big tech companies actually do with AI in 2026 (a layered, numbers-first breakdown)'
-published: false
+published: true
 description: 'Google, Microsoft, Meta, Amazon, Anthropic, Stripe, Shopify, Salesforce, Netflix, Mercari, CyberAgent. Engineers have been saying ''AI boosts productivity'' for years now, but what are the companies actually known for AI doing, and how far have they pushed it? A layered breakdown from internal coding to customer support to org-level changes, with concrete numbers and the catches each one carries.'
 tags:
   - ai
@@ -9,6 +9,7 @@ tags:
   - llm
 series: AI Trends
 id: 3640232
+cover_image: "https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/it-companies-real-ai-usage-2026/cover.png"
 ---
 
 ## Intro: why "are you using AI?" is suddenly hard to answer honestly
