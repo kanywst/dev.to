@@ -1,13 +1,14 @@
 ---
 title: 'Introducing Zopa: a 60 KB authorization engine for proxy-wasm, written in Zig'
 published: false
-description: "OPA's wasm build is two orders of magnitude larger than what I want at the edge for an allow/deny decision. Zopa is a 60 KB authorization engine in Zig with no GC, just a per-request arena"
+description: 'OPA''s wasm build is two orders of magnitude larger than what I want at the edge for an allow/deny decision. Zopa is a 60 KB authorization engine in Zig with no GC, just a per-request arena'
 tags:
   - wasm
   - authorization
   - zig
   - opensource
 series: ShowDev
+id: 3643584
 ---
 
 There are plenty of times you want to delegate "let this request through, or block it" to a wasm filter inside Envoy. API gateways, service mesh boundaries, L7 checkpoints. The default move is to use OPA's wasm build.
