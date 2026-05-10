@@ -9,7 +9,8 @@ tags:
   - opensource
 series: ShowDev
 id: 3643584
-cover_image: "https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/introducing-zopa/cover.png"
+cover_image: 'https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/introducing-zopa/cover.png'
+date: '2026-05-10T07:37:50Z'
 ---
 
 There are plenty of times you want to delegate "let this request through, or block it" to a wasm filter inside Envoy. API gateways, service mesh boundaries, L7 checkpoints. The default move is to use OPA's wasm build.
