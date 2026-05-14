@@ -9,7 +9,8 @@ tags:
   - infrastructure
 series: Amazon Web Services
 id: 3669812
-cover_image: "https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/aws-overview-deep-dive/cover.png"
+cover_image: 'https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/aws-overview-deep-dive/cover.png'
+date: '2026-05-14T12:46:07Z'
 ---
 
 ## Introduction
