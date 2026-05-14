@@ -1,6 +1,6 @@
 ---
 title: 'AWS Deep Dive: what it actually is, how regions and accounts fit together, and where auth lives'
-published: false
+published: true
 description: 'A first-principles tour of AWS for people who keep saying they "get it" but want to actually get it: the physical hierarchy of Regions and AZs, the logical hierarchy of accounts and Organizations, the single HTTPS API entry point, and SigV4 plus the basics of authn/authz.'
 tags:
   - aws
@@ -9,6 +9,7 @@ tags:
   - infrastructure
 series: Amazon Web Services
 id: 3669812
+cover_image: "https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/aws-overview-deep-dive/cover.png"
 ---
 
 ## Introduction
