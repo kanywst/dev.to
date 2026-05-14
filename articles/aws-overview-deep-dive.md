@@ -7,7 +7,8 @@ tags:
   - cloud
   - security
   - infrastructure
-series: "Amazon Web Services"
+series: Amazon Web Services
+id: 3669812
 ---
 
 ## Introduction
