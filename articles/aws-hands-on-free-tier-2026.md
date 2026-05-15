@@ -1,6 +1,6 @@
 ---
-title: 'AWS Hands-On: build S3 + Lambda + DynamoDB on the Always Free tier, plus IAM, CloudWatch, and cost guardrails in 30 minutes'
-published: false
+title: 'AWS Free Hands-On: build S3 + Lambda + DynamoDB on the Always Free tier, plus IAM, CloudWatch, and cost guardrails in 30 minutes'
+published: true
 description: 'A 30-minute end-to-end AWS hands-on that respects the new (post 2025-07-15) Free Plan rules and stays entirely inside the Always Free tier. Touches S3, Lambda, DynamoDB, IAM, CloudWatch, SNS, and Budgets.'
 tags:
   - aws
@@ -9,6 +9,7 @@ tags:
   - beginner
 series: Amazon Web Services
 id: 3678377
+cover_image: "https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/aws-hands-on-free-tier-2026/cover.png"
 ---
 
 ## Introduction
