@@ -9,7 +9,8 @@ tags:
   - beginner
 series: Amazon Web Services
 id: 3678377
-cover_image: "https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/aws-hands-on-free-tier-2026/cover.png"
+cover_image: 'https://raw.githubusercontent.com/0-draft/dev.to/refs/heads/main/articles/assets/aws-hands-on-free-tier-2026/cover.png'
+date: '2026-05-15T14:38:54Z'
 ---
 
 ## Introduction
