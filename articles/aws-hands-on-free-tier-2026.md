@@ -8,6 +8,7 @@ tags:
   - serverless
   - beginner
 series: Amazon Web Services
+id: 3678377
 ---
 
 ## Introduction
